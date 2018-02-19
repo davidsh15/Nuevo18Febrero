@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 try {
                     texto.setText("Diplomado Android");
+                    
                 }catch (Exception e){
                     e.printStackTrace();
                 }
